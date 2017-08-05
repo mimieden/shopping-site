@@ -31,9 +31,6 @@ body {
   margin: 0 auto; }
 
 /*------------------------------------------------------------
-  8/1ここから
-------------------------------------------------------------*/
-/*------------------------------------------------------------
   header *完了
 ------------------------------------------------------------*/
 @media (min-width: 749px) {
@@ -47,23 +44,23 @@ body {
       margin: 0 0 0 15px; } }
 @media (max-width: 748px) {
   header {
-    padding: 29px 0 24px 0;
+    padding: 14.5px 0 12px 0;
     width: 100%; }
     header .pc {
       display: none; }
     header .sp .logo {
       text-align: center;
-      margin-bottom: 24px; }
+      margin-bottom: 12px; }
       header .sp .logo img {
-        height: 56px; }
+        height: 28px; }
     header .sp .menu {
       text-align: center;
       position: relative; }
       header .sp .menu ul#main li {
         display: inline-block;
-        margin: 0 20px 0 0; }
+        margin: 0 10px 0 0; }
         header .sp .menu ul#main li a img {
-          height: 47px; }
+          height: 23.5px; }
       header .sp .menu ul#main li:last-child {
         margin: 0 0 0 0;
         cursor: pointer; }
@@ -71,22 +68,22 @@ body {
         z-index: 2;
         display: none;
         position: absolute;
-        top: 50px;
+        top: 25px;
         left: 0px;
         right: 0px;
         margin: 0 auto; }
         header .sp .menu ul#toggle li {
           width: 60%;
           display: block;
-          margin: 2px auto;
-          padding: 10px 0;
+          margin: 1px auto;
+          padding: 5px 0;
           background-color: #ffffff;
           border: thin solid #887f69; }
           header .sp .menu ul#toggle li a {
             display: block;
             color: #887f69;
             font-weight: bold;
-            font-size: 2.4rem;
+            font-size: 1.2rem;
             text-decoration: none; } }
 /*------------------------------------------------------------
   main > base layout *完了
@@ -104,7 +101,7 @@ body {
     width: 100%; }
     #wrapper main div.white_bg {
       background-color: #ffffff;
-      padding: 0 61px 41px 61px; }
+      padding: 0 30.5px 20.5px 30.5px; }
   #wrapper aside {
     width: 100%; } }
 /*------------------------------------------------------------
@@ -130,7 +127,6 @@ main {
         height: auto; } }
   @media (max-width: 748px) {
     main section#carousel {
-      margin: 0 20px 63px 20px;
       height: auto; }
       main section#carousel img {
         max-width: 100%;
@@ -153,17 +149,17 @@ main {
           margin-right: 10px; }
   @media (max-width: 748px) {
     main section#breadcrumb {
-      padding: 22px;
-      margin: 0 20px 22px 20px; }
+      padding: 11px;
+      margin: 0 10px 11px 10px; }
       main section#breadcrumb ul li {
-        margin-right: 18px;
-        font-size: 2.2rem;
-        height: 22px; }
+        margin-right: 9px;
+        font-size: 1.1rem;
+        height: 11px; }
         main section#breadcrumb ul li a {
-          margin-right: 18px;
+          margin-right: 9px;
           height: 100%; }
           main section#breadcrumb ul li a img {
-            margin-right: 18px;
+            margin-right: 9px;
             height: 100%;
             width: auto; } }
   main section#cate_image {
@@ -173,7 +169,7 @@ main {
       height: auto; }
   @media (max-width: 748px) {
     main section#cate_image {
-      margin: 22px 20px 20px 20px; } }
+      margin: 11px 10px 10px 10px; } }
   main section#buttons {
     margin: 20px 0 31px 0; }
     main section#buttons div.button {
@@ -189,13 +185,13 @@ main {
         text-decoration: none; }
   @media (max-width: 748px) {
     main section#buttons {
-      margin: 52px 20px 59px 20px; }
+      margin: 26px 10px 29.5px 10px; }
       main section#buttons div.button {
-        height: 80px;
-        width: 243px; }
+        height: 40px;
+        width: 121.5px; }
         main section#buttons div.button a {
-          line-height: 80px;
-          font-size: 2.8rem; } }
+          line-height: 40px;
+          font-size: 1.4rem; } }
   @media (min-width: 749px) {
     main .sp {
       display: none; } }
@@ -215,15 +211,15 @@ main {
       color: #b0b0b0; }
   @media (max-width: 748px) {
     main section#prd_id {
-      margin: 0 0 19px 0; }
+      margin: 0 0 9.5px 0; }
       main section#prd_id div#prd_name {
         width: 100%;
-        padding: 38px 0 17px 0;
-        font-size: 2.8rem; }
+        padding: 19px 0 8.5px;
+        font-size: 1.4rem; }
       main section#prd_id div#prd_number {
         width: 100%;
-        padding-bottom: 33px;
-        font-size: 2.0rem; } }
+        padding-bottom: 16.5px;
+        font-size: 1rem; } }
   main section#prd_image {
     border-bottom: thin solid #e8e4da; }
     main section#prd_image div#zoom {
@@ -244,14 +240,14 @@ main {
     main section#prd_image div#zoom {
       width: 100%; }
       main section#prd_image div#zoom img {
-        margin-bottom: 18px; }
+        margin-bottom: 9px; }
     main section#prd_image div#thumbnail {
       width: 100%; }
       main section#prd_image div#thumbnail img {
         width: 18.7%;
         margin-bottom: 1.625%; }
       main section#prd_image div#thumbnail img:last-child {
-        margin-bottom: 20px; } }
+        margin-bottom: 10px; } }
   main section#prd_select {
     margin: 19px 0 37px 0; }
     main section#prd_select div#color_size {
@@ -306,42 +302,42 @@ main {
           height: auto; }
   @media (max-width: 748px) {
     main section#prd_select {
-      margin: 30px 0 0px 0; }
+      margin: 15px 0 0 0; }
       main section#prd_select div#color_size img {
-        height: 24px;
+        height: 12px;
         display: block; }
       main section#prd_select div#color_size table {
-        margin-top: 33px;
-        margin-bottom: 30px;
-        line-height: 80px; }
+        margin-top: 16.5px;
+        margin-bottom: 15px;
+        line-height: 40px; }
         main section#prd_select div#color_size table tr th {
-          font-size: 2.4rem; }
+          font-size: 1.2rem; }
         main section#prd_select div#color_size table tr td input {
-          width: 33px;
-          height: 33px; }
+          width: 16.5px;
+          height: 16.5px; }
       main section#prd_select div#price_qty_cart div#price_qty {
         width: 100%;
         border-bottom: thin solid #e8e4da; }
         main section#prd_select div#price_qty_cart div#price_qty div {
           padding: 35px 0; }
           main section#prd_select div#price_qty_cart div#price_qty div img#price {
-            height: 21px;
-            padding: 11.5px 0; }
+            height: 10.5px;
+            padding: 6px; }
           main section#prd_select div#price_qty_cart div#price_qty div span#currency {
-            font-size: 2.8rem; }
+            font-size: 1.4rem; }
           main section#prd_select div#price_qty_cart div#price_qty div span#price {
-            font-size: 4.4rem; }
+            font-size: 2.2rem; }
           main section#prd_select div#price_qty_cart div#price_qty div span#tax {
-            font-size: 2.8rem; }
+            font-size: 1.4rem; }
           main section#prd_select div#price_qty_cart div#price_qty div img#qty {
-            height: 29px;
-            padding: 11.5px 0; }
+            height: 14.5px;
+            padding: 6px 0; }
           main section#prd_select div#price_qty_cart div#price_qty div input {
-            height: 44px;
+            height: 22px;
             width: 46.5%;
             border: thin solid #e8e4da; }
       main section#prd_select div#price_qty_cart div#cart {
-        margin: 29px 0 59px 0;
+        margin: 14.5px 0 24.5px 0;
         width: 100%; }
         main section#prd_select div#price_qty_cart div#cart img {
           display: block;
@@ -376,24 +372,25 @@ main {
   @media (max-width: 748px) {
     main section#prd_description h2 {
       margin-top: 0px;
-      padding-bottom: 34px;
-      font-size: 3.2rem; }
+      padding-bottom: 17px;
+      font-size: 1.6rem; }
     main section#prd_description h3 {
-      padding: 36px 0 34px 0;
-      font-size: 3.2rem; }
+      padding: 18px 0 17px 0;
+      font-size: 1.6rem; }
     main section#prd_description p {
-      font-size: 2.8rem; }
+      font-size: 1.4rem; }
     main section#prd_description table {
-      margin-top: 50px; }
+      margin-top: 25px; }
       main section#prd_description table tr th {
         width: 31.2%;
-        font-size: 2.8rem;
+        font-size: 1.4rem;
         vertical-align: middle; }
       main section#prd_description table tr td {
         width: 68.8%;
-        padding: 27px 32px;
-        font-size: 2.8rem;
-        letter-spacing: -0.2rem; } }
+        padding: 13.5px 16px;
+        font-size: 1.4rem;
+        letter-spacing: -0.1rem;
+        line-height: 1; } }
   @media (min-width: 749px) {
     main section.items .item {
       background-color: #ffffff;
@@ -415,23 +412,23 @@ main {
         margin: 20px auto 13px auto; } }
   @media (max-width: 748px) {
     main section.items {
-      padding: 0 20px 0 20px; }
+      padding: 0 10px 0 10px; }
       main section.items .flex-box .item {
         background-color: #ffffff;
-        margin-bottom: 2px;
-        width: 49.9%; }
+        margin-bottom: 1px;
+        width: 49.8%; }
         main section.items .flex-box .item img {
           display: block;
           width: 88%;
-          margin: 18px auto 10px auto; }
+          margin: 9px auto 5px auto; }
         main section.items .flex-box .item p {
           width: 88%;
-          font-size: 2.2rem;
-          letter-spacing: 0.05em; }
+          font-size: 1.1rem;
+          letter-spacing: 0.025em; }
         main section.items .flex-box .item p#name {
-          margin: 10px auto 31px auto; }
+          margin: 5px auto 15.5px auto; }
         main section.items .flex-box .item p#price {
-          margin: 31px auto 34px auto; } }
+          margin: 15.5px auto 17px auto; } }
   @media (min-width: 749px) {
     main section#guide div {
       background-color: #ffffff;
@@ -457,34 +454,33 @@ main {
         margin: 15px 20px 20px 20px; } }
   @media (max-width: 748px) {
     main section#guide {
-      padding: 0 20px 0 20px; }
+      padding: 0 10px 0 10px; }
       main section#guide span div {
         background-color: #ffffff;
         width: 100%;
-        margin-bottom: 10px; }
+        margin-bottom: 5px; }
         main section#guide span div h3 {
           color: #887f69;
-          font-size: 3.2rem;
-          margin: 41px 40px 37px 40px;
-          line-height: 24px; }
+          font-size: 1.6rem;
+          margin: 20.5px 20px 18.5px 20px;
+          line-height: 12px; }
         main section#guide span div img#free {
           width: 58.2%;
           height: auto;
           display: block;
-          margin: 37px 40px 32px 40px; }
+          margin: 18.5px 20px 16px 20px; }
         main section#guide span div img#card {
           width: 88.4%;
           height: auto;
           display: block;
-          margin: 37px 5.8% 32px 5.8%; }
+          margin: 18.5px 5.8% 16px 5.8%; }
         main section#guide span div h4 {
           color: #887f69;
-          font-size: 2.4rem;
-          margin: 32px 40px 23px 40px; }
+          font-size: 1.2rem;
+          margin: 16px 20px 11.5px 20px; }
         main section#guide span div p {
-          font-size: 2.4rem;
-          line-height: 1.2;
-          margin: 23px 40px 40px 40px; } }
+          font-size: 1.2rem;
+          margin: 11.5px 20px 20px 20px; } }
 
 /*------------------------------------------------------------
   main > common parts *完了
@@ -502,15 +498,15 @@ main {
     display: none; }
   .title .sp {
     text-align: center;
-    margin: 42px 0 24px 0; }
+    margin: 21px 0 12px 0; }
     .title .sp img {
-      height: 31px; } }
+      height: 15.5px; } }
 /*------------------------------------------------------------
   aside
 ------------------------------------------------------------*/
 @media (max-width: 748px) {
   aside {
-    padding: 0 20px 0 20px; } }
+    padding: 0 10px 0 10px; } }
 aside section#search {
   background-color: #ffffff;
   height: 52px;
@@ -557,29 +553,29 @@ aside section#search {
           margin: auto; }
 @media (max-width: 748px) {
   aside {
-    padding: 0 20px 0 20px; }
+    padding: 0 10px 0 10px; }
     aside section#search {
-      height: 61px;
-      padding: 42px 31px 42px 31px;
-      margin: 0 0 31px 0; }
+      height: 30.5px;
+      padding: 21px 15.5px 21px 15.5px;
+      margin: 0 0 15.5px 0; }
       aside section#search img {
         display: none; }
       aside section#search dl dt {
-        margin-right: 30px; }
+        margin-right: 15px; }
         aside section#search dl dt input {
-          height: 59px;
-          line-height: 59px;
-          padding-left: 30px; }
+          height: 29.5px;
+          line-height: 29.9px;
+          padding-left: 15px; }
           aside section#search dl dt input::placeholder {
-            font-size: 2.2rem; }
+            font-size: 1.1rem; }
       aside section#search dl dd {
-        width: 59px;
-        height: 59px; }
+        width: 29.5px;
+        height: 29.5px; }
         aside section#search dl dd button {
-          padding: 13.5px; }
+          padding: 7px; }
           aside section#search dl dd button span {
-            width: 32px;
-            height: 32px; } }
+            width: 16px;
+            height: 16px; } }
 aside section#navigation div#navigation_link, aside section#about_shop div#navigation_link {
   margin: 0 0 10px 0; }
 aside section#navigation .aside_title, aside section#about_shop .aside_title {
@@ -619,18 +615,18 @@ aside section#navigation .aside_contents:last-child, aside section#about_shop .a
   margin: 0 0 10px 0; }
 @media (max-width: 748px) {
   aside section#navigation div#navigation_link, aside section#about_shop div#navigation_link {
-    margin: 0 0 18px 0; }
+    margin: 0 0 9px 0; }
   aside section#navigation .aside_title, aside section#about_shop .aside_title {
-    padding: 34px 23px 34px 23px; }
+    padding: 17px 11.5px 17px 11.5px; }
     aside section#navigation .aside_title a, aside section#about_shop .aside_title a {
-      height: 23px; }
+      height: 11.5px; }
   aside section#navigation .aside_contents div, aside section#about_shop .aside_contents div {
-    padding: 33.5px 31px 33.5px 31px; }
+    padding: 17px 10.5px 17px 10.5px; }
     aside section#navigation .aside_contents div a, aside section#about_shop .aside_contents div a {
-      font-size: 2.4rem;
-      height: 24px; }
+      font-size: 1.2rem;
+      height: 12px; }
   aside section#navigation .aside_contents:last-child, aside section#about_shop .aside_contents:last-child {
-    margin: 0 0 21px 0; } }
+    margin: 0 0 10.5px 0; } }
 aside section#about_shop div div.contents {
   background-color: #ffffff;
   padding: 11px 11px 30px 11px;
@@ -659,10 +655,10 @@ aside section#about_shop div div.contents {
       width: 45.9%; }
       aside section#about_shop div div.contents div.right p {
         width: 100%;
-        font-size: 2.4rem;
-        margin-bottom: 30px; }
+        font-size: 1.2rem;
+        margin-bottom: 15px; }
       aside section#about_shop div div.contents div.right div {
-        height: 60px;
+        height: 30px;
         float: left; }
         aside section#about_shop div div.contents div.right div a {
           display: block;
@@ -677,8 +673,8 @@ footer {
   padding-bottom: 150px; }
   @media (max-width: 748px) {
     footer {
-      margin-top: 46px;
-      padding: 0px 20px 181px 20px; } }
+      margin-top: 23px;
+      padding: 0 10px 90.5px 10px; } }
   footer div#pagetop {
     text-align: right;
     padding: 0 0 20px 0;
@@ -686,8 +682,8 @@ footer {
   @media (max-width: 748px) {
     footer div#pagetop {
       text-align: center;
-      padding: 0 0 57px 0;
-      height: 27px; }
+      padding: 0 0 28.5px 0;
+      height: 14.5px; }
       footer div#pagetop a {
         height: 100%; }
         footer div#pagetop a img {
@@ -704,16 +700,16 @@ footer {
         text-decoration: none; }
   @media (max-width: 748px) {
     footer div#footer_navi ul {
-      margin: 38px auto 30px auto; }
+      margin: 19px auto 15px auto; }
       footer div#footer_navi ul li {
-        font-size: 2.2rem; } }
+        font-size: 1.1rem; } }
   footer p {
     color: #b0b0b0;
     font-size: 1rem;
     text-align: center; }
   @media (max-width: 748px) {
     footer p {
-      font-size: 2.0rem; } }
+      font-size: 1rem; } }
 
 /* Owl Carousel
 ------------------------------------------------------------*/
@@ -731,13 +727,16 @@ footer {
   background: #9d1a2d; }
 
 @media (max-width: 748px) {
+  .owl-stage-outer {
+    margin: 0 10.5px; }
+
   .owl-theme .owl-nav.disabled + .owl-dots {
     margin: 0;
     text-align: left; }
 
   .owl-theme .owl-dots .owl-dot span {
-    width: 50px;
-    height: 4px;
-    margin: 20px 20px 0px 0; } }
+    width: 25px;
+    height: 2px;
+    margin: 10.5px 10.5px 0 10.5px; } }
 
 /*# sourceMappingURL=style.css.map */
