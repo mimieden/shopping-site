@@ -1014,7 +1014,8 @@ aside {
     .aside_contents {
       div {
         background-color: $subColorWhite;
-        padding: 11.5px 8px 11.5px 15px;  //sp設定あり 33.5 auto 33.5 31
+        //padding: 11.5px 8px 11.5px 15px;  //sp設定あり 33.5 auto 33.5 31
+        padding: 16.5px 8px 16.5px 8px;
         margin-bottom: 2px;
         a {
           display: block;
@@ -1258,6 +1259,6 @@ footer {
     //height: 4px;
     height: 2px;
     //margin: 20px 20px 0px 0;
-    margin: 10.5px 10.5px 0 10.5px;
+    margin: 10.5px 0 0 10.5px;
   }
 }

@@ -596,7 +596,7 @@ aside section#navigation .aside_title, aside section#about_shop .aside_title {
       height: 65%; }
 aside section#navigation .aside_contents div, aside section#about_shop .aside_contents div {
   background-color: #ffffff;
-  padding: 11.5px 8px 11.5px 15px;
+  padding: 16.5px 8px 16.5px 8px;
   margin-bottom: 2px; }
   aside section#navigation .aside_contents div a, aside section#about_shop .aside_contents div a {
     display: block;
@@ -737,6 +737,6 @@ footer {
   .owl-theme .owl-dots .owl-dot span {
     width: 25px;
     height: 2px;
-    margin: 10.5px 10.5px 0 10.5px; } }
+    margin: 10.5px 0 0 10.5px; } }
 
 /*# sourceMappingURL=style.css.map */
